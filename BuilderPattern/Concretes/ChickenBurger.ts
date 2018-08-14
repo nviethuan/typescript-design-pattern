@@ -6,6 +6,6 @@ export class ChickenBurger extends Burger {
     }
 
     public name(): string {
-        return "Chicken Burger."
+        return "Chicken Burger"
     }
 }

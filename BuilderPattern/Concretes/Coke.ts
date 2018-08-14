@@ -6,6 +6,6 @@ export class Coke extends ColdDrink {
     }
 
     public name(): string {
-        return "Coke."
+        return "Coke"
     }
 }
