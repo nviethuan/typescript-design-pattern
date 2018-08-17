@@ -1,4 +1,4 @@
-import { AdvancedMediaPlayer } from "./AdvancedMediaPlayer";
+import { AdvancedMediaPlayer } from "../Interfaces/AdvancedMediaPlayer";
 
 export class VlcPlayer implements AdvancedMediaPlayer {
     playVlc(fileName: string): void {

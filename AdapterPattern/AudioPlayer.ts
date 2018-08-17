@@ -1,5 +1,5 @@
-import { MediaPlayer } from "./MediaPlayer";
-import { MediaAdapter } from "./MediaAdapter";
+import { MediaPlayer } from "./Interfaces/MediaPlayer";
+import { MediaAdapter } from "./Adapter/MediaAdapter";
 
 export class AudioPlayer implements MediaPlayer {
     public mediaAdapter: MediaAdapter;
