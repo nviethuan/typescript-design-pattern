@@ -1,4 +1,4 @@
-import { AnimalFactory } from '../FactoryPattern/Factories/AnimalFactory';
+import { AnimalFactory } from '\./Factories/Animals/AnimalFactory';
 import { FactoryProducer } from './Products/FactoryProducer';
 import { FruitFactory } from './Factories/Fruits/FruitFactory';
 
