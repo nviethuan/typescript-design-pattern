@@ -2,4 +2,7 @@
 
 ##################################################################################################
 
-![Factory Pattern](https://www.tutorialspoint.com/design_pattern/images/factory_pattern_uml_diagram.jpg "Factory Pattern")
+![Factory Pattern](https://s3.amazonaws.com/design-pattern-images/1cf103c5-5c71-417d-952a-74c1c91df9b9.png "Factory Pattern")
+
+##################################################################################################
+
