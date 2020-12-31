@@ -4,9 +4,9 @@ import { Client } from "./Client";
 class BusinessDelegatePattern {
     public static main(args?: string[]): void {
         const businessDelegate: BusinessDelegate = new BusinessDelegate();
-        businessDelegate.setServiceType("EJB");
-
         const client: Client = new Client(businessDelegate);
+        
+        businessDelegate.setServiceType("EJB");
         client.doTask();
 
         businessDelegate.setServiceType("JMS");
