@@ -1,6 +1,6 @@
 import { RedCircle } from './RedCircle';
-import { Shape } from "./Shape";
-import { Circle } from "./Circle";
+import { Shape } from './Shape';
+import { Circle } from './Circle';
 import { GreenCircle } from './GreenCircle';
 
 class BrigePattern {

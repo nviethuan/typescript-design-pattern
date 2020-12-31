@@ -5,7 +5,7 @@ class BuilderFactory {
         const mealBuilder: MealBuilder = new MealBuilder();
         
         const vegMeal: Meal = mealBuilder.prepareVegMeal();
-        console.log("Vegetable Meal");
+        console.log('Vegetable Meal');
         vegMeal.showItems();
         console.log(`Total Cost: ${ vegMeal.getCost() }`);
         

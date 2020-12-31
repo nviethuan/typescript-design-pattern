@@ -1,7 +1,7 @@
-import { Animal } from "../../Interfaces/Animal";
+import { Animal } from '../../Interfaces/Animal';
 
 export class Elephant implements Animal {
     sound(): string {
-        return "Sound of elephant."
+        return 'Sound of elephant.'
     }
 }

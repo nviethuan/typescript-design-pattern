@@ -8,6 +8,6 @@ export class SingleComputer {
     }
 
     public logMessage(): void {
-        console.log("Hello");
+        console.log('Hello');
     }
 }

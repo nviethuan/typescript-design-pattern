@@ -1,4 +1,4 @@
-import { Packing } from "./Packing";
+import { Packing } from './Packing';
 
 export interface Item {
     name(): string;

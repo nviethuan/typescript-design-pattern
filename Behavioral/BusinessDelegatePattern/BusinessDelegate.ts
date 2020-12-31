@@ -1,5 +1,5 @@
-import { BusinessLookUp } from "./BusinessLookUp";
-import { BusinessService } from "./BusinessService";
+import { BusinessLookUp } from './BusinessLookUp';
+import { BusinessService } from './BusinessService';
 
 export class BusinessDelegate {
     private lookupService: BusinessLookUp = new BusinessLookUp();

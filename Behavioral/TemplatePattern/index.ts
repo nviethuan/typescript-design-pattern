@@ -1,6 +1,6 @@
-import { Game } from "./Game";
-import { Cricket } from "./Cricket";
-import { Football } from "./Football";
+import { Game } from './Game';
+import { Cricket } from './Cricket';
+import { Football } from './Football';
 
 class TemplatePattern {
     public static main(args?: string[]): void {

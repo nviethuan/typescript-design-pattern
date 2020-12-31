@@ -1,7 +1,7 @@
-import { Shape } from "./Shape";
-import { Circle } from "./Circle";
-import { RedShapeDecorator } from "./RedShapeDecorator";
-import { Rectangle } from "./Rectangle";
+import { Shape } from './Shape';
+import { Circle } from './Circle';
+import { RedShapeDecorator } from './RedShapeDecorator';
+import { Rectangle } from './Rectangle';
 
 class DecotatorPattern {
     public static main(agrs?: string[]){
@@ -10,13 +10,13 @@ class DecotatorPattern {
         const redCircle: Shape = new RedShapeDecorator(circle);
         const redRectangle: Shape = new RedShapeDecorator(rectangle);
 
-        console.log("Circle with normal border");
+        console.log('Circle with normal border');
         circle.draw();
-        console.log("\nRectangle with normal border");
+        console.log('\nRectangle with normal border');
         rectangle.draw();
-        console.log("\nCircle of red border");
+        console.log('\nCircle of red border');
         redCircle.draw();
-        console.log("\nRectangle of red border");
+        console.log('\nRectangle of red border');
         redRectangle.draw()
     }
 }

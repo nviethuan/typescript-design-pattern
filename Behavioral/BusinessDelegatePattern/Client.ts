@@ -1,4 +1,4 @@
-import { BusinessDelegate } from "./BusinessDelegate";
+import { BusinessDelegate } from './BusinessDelegate';
 
 export class Client {
 

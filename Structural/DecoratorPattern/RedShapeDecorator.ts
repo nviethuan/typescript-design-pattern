@@ -1,5 +1,5 @@
-import { ShapeDecorator } from "./ShapeDecorator";
-import { Shape } from "./Shape";
+import { ShapeDecorator } from './ShapeDecorator';
+import { Shape } from './Shape';
 
 export class RedShapeDecorator extends ShapeDecorator {
     public constructor(decoratedShape: Shape){
@@ -12,6 +12,6 @@ export class RedShapeDecorator extends ShapeDecorator {
     }
 
     private setRedBorder(decoratedShape: Shape) {
-        console.log("Border Color: Red");
+        console.log('Border Color: Red');
     }
 }

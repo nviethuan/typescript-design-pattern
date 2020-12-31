@@ -1,6 +1,6 @@
-import { Context } from "./Context";
-import { StartState } from "./StartState";
-import { StopState } from "./StopState";
+import { Context } from './Context';
+import { StartState } from './StartState';
+import { StopState } from './StopState';
 
 export class StatePattern {
     public static main(args?: string[]): void {

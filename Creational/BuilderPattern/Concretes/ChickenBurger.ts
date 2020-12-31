@@ -1,4 +1,4 @@
-import { Burger } from "../Functionalities/Burger";
+import { Burger } from '../Functionalities/Burger';
 
 export class ChickenBurger extends Burger {
     public price(): number{
@@ -6,6 +6,6 @@ export class ChickenBurger extends Burger {
     }
 
     public name(): string {
-        return "Chicken Burger"
+        return 'Chicken Burger'
     }
 }

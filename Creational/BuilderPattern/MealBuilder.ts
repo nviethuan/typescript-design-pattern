@@ -2,7 +2,7 @@ import { Coke } from './Concretes/Coke';
 import { ChickenBurger } from './Concretes/ChickenBurger';
 import { Pepsi } from './Concretes/Pepsi';
 import { VegBurger } from './Concretes/VegBurger';
-import { Meal } from "./Meal";
+import { Meal } from './Meal';
 
 export class MealBuilder {
     public prepareVegMeal(): Meal {

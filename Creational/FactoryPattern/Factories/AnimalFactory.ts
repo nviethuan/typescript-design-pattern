@@ -9,15 +9,15 @@ export class AnimalFactory {
             return null;
         }
 
-        if(kind === "Elephant"){
+        if(kind === 'Elephant'){
             return new Elephant();
         }
 
-        if(kind === "Lion"){
+        if(kind === 'Lion'){
             return new Lion();
         }
 
-        if(kind === "Monkey"){
+        if(kind === 'Monkey'){
             return new Monkey();
         }
 

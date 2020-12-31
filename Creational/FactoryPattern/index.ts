@@ -1,4 +1,4 @@
-import { AnimalFactory } from "./Factories/AnimalFactory";
+import { AnimalFactory } from './Factories/AnimalFactory';
 
 class FactoryPattern {
     public static main(args?: string[]): void {

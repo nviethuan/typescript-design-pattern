@@ -1,5 +1,5 @@
-import { Shape } from "./Shape";
-import { DrawAPI } from "./DrawAPI";
+import { Shape } from './Shape';
+import { DrawAPI } from './DrawAPI';
 
 export class Circle extends Shape{
     private x: number;

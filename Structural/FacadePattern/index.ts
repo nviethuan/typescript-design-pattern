@@ -1,4 +1,4 @@
-import { ShapeMaker } from "./ShapeMaker";
+import { ShapeMaker } from './ShapeMaker';
 
 class FacadePattern {
     public static main(args?: string[]): void {

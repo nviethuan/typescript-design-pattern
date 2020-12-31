@@ -1,5 +1,5 @@
-import { StudentView } from "./StudentView";
-import { HomeView } from "./HomeView";
+import { StudentView } from './StudentView';
+import { HomeView } from './HomeView';
 
 export class Dispatcher {
     private studentView: StudentView;
@@ -11,7 +11,7 @@ export class Dispatcher {
     }
 
     public dispatch(request: string): void {
-        if (request === "STUDENT") {
+        if (request === 'STUDENT') {
             this.studentView.show();
         }
         else {

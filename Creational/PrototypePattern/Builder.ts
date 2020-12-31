@@ -1,7 +1,7 @@
-import { Prototype } from "./Prototype";
-import { Concrete1 } from "./Concrete1";
-import { Concrete2 } from "./Concrete2";
-import { Concrete3 } from "./Concrete3";
+import { Prototype } from './Prototype';
+import { Concrete1 } from './Concrete1';
+import { Concrete2 } from './Concrete2';
+import { Concrete3 } from './Concrete3';
 
 export class Builder {
     private prototypeMap: { [s: string]: Prototype; } = {};

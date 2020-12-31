@@ -1,4 +1,4 @@
-import { Dispatcher } from "./Dispatcher";
+import { Dispatcher } from './Dispatcher';
 
 export class FrontController {
 
@@ -9,12 +9,12 @@ export class FrontController {
     }
 
     private isAuthenticUser(): boolean {
-        console.log("User is authenticated successfully.");
+        console.log('User is authenticated successfully.');
         return true;
     }
 
     private trackRequest(request: string): void {
-        console.log("Page requested: " + request);
+        console.log('Page requested: ' + request);
     }
 
     public dispatchRequest(request: string): void {

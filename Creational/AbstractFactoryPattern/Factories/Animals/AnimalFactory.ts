@@ -2,7 +2,7 @@ import { Elephant } from './Elephant';
 import { Lion } from './Lion';
 import { Monkey } from './Monkey';
 import { Animal } from '../../Interfaces/Animal';
-import { AbstractFactory } from "../AbstractFactory";
+import { AbstractFactory } from '../AbstractFactory';
 import { Fruits } from '../../Interfaces/Fruits';
 
 export class AnimalFactory extends AbstractFactory {
@@ -11,15 +11,15 @@ export class AnimalFactory extends AbstractFactory {
             return null;
         }
 
-        if(kind === "Elephant"){
+        if(kind === 'Elephant'){
             return new Elephant();
         }
 
-        if(kind === "Lion"){
+        if(kind === 'Lion'){
             return new Lion();
         }
 
-        if(kind === "Monkey"){
+        if(kind === 'Monkey'){
             return new Monkey();
         }
 

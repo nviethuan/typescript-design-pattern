@@ -1,4 +1,4 @@
-import { Prototype } from "./Prototype";
+import { Prototype } from './Prototype';
 
 export class Concrete3 implements Prototype {
 
@@ -7,6 +7,6 @@ export class Concrete3 implements Prototype {
     }
 
     toString(): string {
-        return "This is Concrete3";
+        return 'This is Concrete3';
     }
 }

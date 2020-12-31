@@ -2,7 +2,7 @@ import { Banana } from './Banana';
 import { Orange } from './Orange';
 import { Tomato } from './Tomato';
 import { Animal } from '../../Interfaces/Animal';
-import { AbstractFactory } from "../AbstractFactory";
+import { AbstractFactory } from '../AbstractFactory';
 import { Fruits } from '../../Interfaces/Fruits';
 
 export class FruitFactory extends AbstractFactory {
@@ -11,15 +11,15 @@ export class FruitFactory extends AbstractFactory {
             return null;
         }
 
-        if(color === "Banana"){
+        if(color === 'Banana'){
             return new Banana();
         }
 
-        if(color === "Orange"){
+        if(color === 'Orange'){
             return new Orange();
         }
 
-        if(color === "Tomato"){
+        if(color === 'Tomato'){
             return new Tomato();
         }
 
