@@ -1,13 +1,13 @@
 export class SingleComputer {
-    private static instance: SingleComputer = new SingleComputer();
+  private static instance: SingleComputer = new SingleComputer();
 
-    private constructor(){}
+  private constructor() { }
 
-    public static getInstance(): SingleComputer {
-        return SingleComputer.instance;
-    }
+  public static getInstance(): SingleComputer {
+    return SingleComputer.instance;
+  }
 
-    public logMessage(): void {
-        console.log('Hello');
-    }
+  public logMessage(): void {
+    console.log('Hello');
+  }
 }

@@ -1,13 +1,13 @@
 import { Strategy } from './Strategy';
 
 export class Context {
-    private strategy: Strategy;
+  private strategy: Strategy;
 
-    public constructor(strategy: Strategy){
-        this.strategy = strategy;
-    }
+  public constructor(strategy: Strategy) {
+    this.strategy = strategy;
+  }
 
-    public executeStrategy(num1: number, num2: number): Number {
-        return this.strategy.doOperation(num1, num2);
-    }
+  public executeStrategy(num1: number, num2: number): Number {
+    return this.strategy.doOperation(num1, num2);
+  }
 }

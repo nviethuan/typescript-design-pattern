@@ -1,3 +1,3 @@
 export interface MediaPlayer {
-    play(audioType: string, fileName: string): void;
+  play(audioType: string, fileName: string): void;
 }

@@ -1,4 +1,4 @@
 export interface Prototype {
-    clone(): Prototype;
-    toString(): string;
+  clone(): Prototype;
+  toString(): string;
 }

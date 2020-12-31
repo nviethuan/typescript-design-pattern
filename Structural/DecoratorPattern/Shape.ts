@@ -1,3 +1,3 @@
 export interface Shape {
-    draw(): void;
+  draw(): void;
 }

@@ -1,3 +1,3 @@
 export interface Packing {
-    pack(): string;
+  pack(): string;
 }

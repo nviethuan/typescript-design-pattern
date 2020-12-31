@@ -1,3 +1,3 @@
 export interface Animal {
-    sound(): void;
+  sound(): void;
 }

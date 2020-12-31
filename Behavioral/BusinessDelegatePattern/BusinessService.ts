@@ -1,3 +1,3 @@
 export interface BusinessService {
-    doProcessing(): void;
- }
+  doProcessing(): void;
+}

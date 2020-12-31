@@ -1,5 +1,5 @@
 export class StudentView {
-    public show(): void {
-        console.log('Displaying Student Page');
-    }
+  public show(): void {
+    console.log('Displaying Student Page');
+  }
 }
